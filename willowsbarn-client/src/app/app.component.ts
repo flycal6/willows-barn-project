@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'willowsbarn-client';
+  title: string;
+
+  constructor() {
+    this.title = 'Willows FFA Barn';
+  }
+
 }
